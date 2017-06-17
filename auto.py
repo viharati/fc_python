@@ -19,4 +19,3 @@ m_email.send_mail()
 
 m_excel.excel_file = 'result.xlsx'
 m_excel.save_to_excel(news_list)
-
