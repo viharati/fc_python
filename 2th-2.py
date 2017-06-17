@@ -19,3 +19,6 @@ val3 = ['a', 'b', 'c']
 
 if 'a' in val3:
 	print(val3)
+
+
+
