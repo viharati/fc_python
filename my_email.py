@@ -10,3 +10,9 @@ class Email():
 		string2 = "To  : " + self.to_email + '\n'
 		print(string1)
 		print(string2)
+
+def get():
+	pass
+
+def set():
+	pass
