@@ -5,9 +5,11 @@ from my_email_multi import Email as EmailMulti
 wb = load_workbook('emails.xlsx')
 ws = wb['Sheet1']
 
-e=EmailMulti()
+e=Email()
+#e=EmailMulti()
+
 for row in ws.iter_rows():
-	e.send_mail(row[0].value.encode('utf-8'), row[1].value)
+	e.send_mail(row[0].value.encode('utf-8'), row[1].value, 'emails.xlsx')
 	print(row[0].value, "\n" ,row[1].value,)
 
 

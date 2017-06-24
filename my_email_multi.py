@@ -14,10 +14,10 @@ else:
 class Email:
 	def __init__(self, SMTP_SERVER='smtp.gmail.com', SMTP_USER='pasyati0@gmail.com', SMTP_PASSWORD = 'rufwjd09', SMTP_PORT=465):
 		self.SMTP_SERVER 	= SMTP_SERVER
-		self.SMTP_USER = SMTP_USER
-		self.SMTP_PASSWORD = SMTP_PASSWORD
-		self.SMTP_PORT = SMTP_PORT 
-
+		self.SMTP_USER 		= SMTP_USER
+		self.SMTP_PASSWORD 	= SMTP_PASSWORD
+		self.SMTP_PORT 		= SMTP_PORT 
+		#self.멤버변수를 	= 인자값으로 추가
 	subj_layout = "님에게 메일이 도작했습니다. "
 	cont_layout = """님 안녕하세요."
 자동화로 발송되는 메일입니다 .
@@ -26,6 +26,7 @@ class Email:
 	
 	
 	def send_mail(self, name, addr):
+		e.send_mail('윤준연', 'harati@outlook.kr', 'emails.xlsx')
 		import smtplib
 		postfix= "python version: " + str(sys.version[0]) + " 에서 보냄"
 
@@ -37,7 +38,7 @@ class Email:
 		#msg['Subject'] = '자동화메일입니다.'
 		#msg['Subject'] = '자동화메일입니다.'.decode('utf-8')
 		msg['Subject'] = name + self.subj_layout
-		
+		msg['Subject'] = msg['Subject'].decode('utf-8')
 		#contents = name.decode('utf-8') + '님. 안녕하세요.'.decode('utf-8')
 		contents = name + '님. 안녕하세요.\n' + postfix
 		contents = name + self.cont_layout + postfix
