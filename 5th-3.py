@@ -7,10 +7,12 @@ ws = wb['Sheet1']
 
 e=Email()
 #e=EmailMulti()
+'''
 
+'''
 for row in ws.iter_rows():
 	e.send_mail(row[0].value.encode('utf-8'), row[1].value, 'emails.xlsx')
-	print(row[0].value, "\n" ,row[1].value,)
+	print(row[0].value + "\t" +row[1].value)
 
 
 print('-'*10)
@@ -24,5 +26,5 @@ while True:
 	addr = ws['B'+str(row_cnt)].value
 	e.send_mail(name.encode('utf-8'), addr)
 
-	print(name, "\n" ,addr)
+	print(name, "\t" ,addr)
 	row_cnt = row_cnt + 1

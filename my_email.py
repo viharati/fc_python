@@ -37,7 +37,7 @@ class Email():
         msg['To']   = addr
         #msg['Subject'] = '자동화메일입니다.'
         #msg['Subject'] = '자동화메일입니다.'.decode('utf-8')
-        msg['Subject'] = name + self.subj_layout
+        msg['Subject'] = name + self.subj_layout.decode('utf-8').encode('euc-kr')
         
         #contents = name.decode('utf-8') + '님. 안녕하세요.'.decode('utf-8')
         contents = name + '님. 안녕하세요.\n' + postfix
