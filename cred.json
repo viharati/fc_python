@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fastcampus-172111",
+  "private_key_id": "afaac80f5a41ffb03ceca3e0b4e59f59a2edff98",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2Z9naIoqDNMm0\nSuOjb/uldCHVafS4aTnt34FHMbeLMEeByAFbQnTUTHK9w1gnW1G2mqTQOi98w6u1\n/a70SwRBKoWkrp9H5jxe1XW9ZXS4VsYGyEQT+BtW61DGq6KGCh+k+6IOVJ8t9VKt\nrzRfMQdzX95QBxD/9pn6qZCdtSGnXqEkrxl99GYIKeeywhqKKzUKVKlomvGN7fJ/\nOa7er9BiNeJYMkjrZ6uTtQkyYFyFK+uK9qWkbVWh/stnYgDrK662xHS0PogKVYgM\non+PFMVat+N/wWU/uJ2muzbbd16S2ZauuPsvEMlD93N5/qI0THJOmXMv2Imrn5jO\n94ax6mVXAgMBAAECggEAWQ45Gbw1fju+ouzRWVFqPmyFvEl/9q1BYDb4Skcmwqku\nsFly+BhpK+GrP6TpHEYEji/Qee1+k96ArlkOGy2pBRv6pd2v3I23OeHkGzU2mG2d\nP2B1hH5k8rnu9SCFOAYnTwigJXkBQpH87NmWq0cnyResVcwta5r9sJkrBySRKsJA\noq7aYVrWCZbrIREDYnVMIQ+6nn9xbFfgO097GSwKrLflL3lKJmIvjCIcJCcMQCSe\nAajrbxENrLXSHHvPhcYYdB7Smt5kiTs9qUDzVXVmqLlm2l0bWs1IRXMI+MCLxG/O\n1XpRaymh+Ou5Ymti2GVtYsppnaD27cKAcrb8J1dI2QKBgQDhAHadi/pVvtO1TIkv\n0NNrDcAAG6vYK1XmWUrJ9AvP8fPGP0/dOxEQ+xMopnd1zDLh+2DpgyiImC+6iTgx\nQs4Z9NlCRzCh3YoIvFdf3Ya+cPdeH0SSknm6u66z4X9UuG+VB0SUB+NbreRxYIF3\nrLndklbXkfZJtr+vYbzgKyfiXQKBgQDPiRL9/N01s9vqaJ8VNlM/dXL9HVQ6saer\nFu8fehGnOVxMBtjSoQvSSXGTDJWWEs5ofNDT4mEDfkmtxq6HDd/GhTsYO+fcPbXV\nB5wYPdmd/YFh6VUudkqZUke0r9Jh/2GGBCh+Ho1fOnvtduhTeJ3zqZyvYNVbLWN1\nX8KoAw5TQwKBgC20y2OrqLm8XwNIPeIBuMDZdTRQarMp8nQtlVy6/59JVizidZXK\nRug9KKIsVr4OMhPn3cLxys0cpS1ubITNPlLVg0DMd1uaRk0J/XHS7WlIR2fOUD66\nFJJTR+TwnM4X/Uq3xD2R8KSSCYLiiMpHwyX4cT2vP+mvfvbgkt6yxZJdAoGBAMJS\n8lKaU7M2L0QlJFgjXv27hqkUrkqrEHk15z+M+DyhjBewDZPjsgL8O/lZvjMgdt8F\niC/t97LirDCoKcFRr2feVoARj7/8lGbdUj6sozi5J027wsPXhXBcx8GbJB4Yl4N6\nH0RAbVVumJ24Sj/mX9fIyGq6++v86vT7bnQNMHurAoGARn9HNT5mP9DWeRQN/aQd\nqRpFGBrNyapXkfNVf12+8u+vLkY3TfwOXAFFbr9fm2uUNgPVDq7YXYd2sS/h4ROh\nvi5ufWcHkH2iHC7TN1qFroBtIfHfSNPu/Wjp9rc1obiBbpXzIzMiMY19G8eX7U+d\nV4v7HThTO9s0K4t6C8M/hcI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "woncocoa@fastcampus-172111.iam.gserviceaccount.com",
+  "client_id": "107039635862096677636",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/woncocoa%40fastcampus-172111.iam.gserviceaccount.com"
+}
