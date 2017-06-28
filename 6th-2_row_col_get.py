@@ -23,5 +23,19 @@ print(value)
 row_values = worksheet.row_values('1')
 print(row_values)
 
-col_values = worksheet.col_values('2')
-print(col_values)
+#col_values = worksheet.col_values('2')
+#print(col_values)
+
+print("-"*10)
+for i in range(1,3):
+	value = worksheet.row_values(str(i))
+	for j in range(0,4):
+		print(value[j])
+
+
+print("-"*10)
+for i in range(1,3):
+	value = worksheet.col_values(str(i))
+	for j in range(0,4):
+		print(value[j])
+
