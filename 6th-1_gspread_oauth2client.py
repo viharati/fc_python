@@ -1,5 +1,8 @@
 #coding : utf-8
 import gspread
+<<<<<<< HEAD
+import oauth2client
+=======
 from oauth2client.service_account import ServiceAccountCredentials
 
 scope = [
@@ -21,3 +24,4 @@ value = worksheet.acell('A1').value
 
 print(value)
 
+>>>>>>> 104525c6c9203b87adc3ddcbdd378c7f5db0a8f3
