@@ -18,6 +18,10 @@ doc = gc.open_by_url('https://docs.google.com/spreadsheets/d/1bpAgT3ER6d-CDB4bEZ
 worksheet = doc.get_worksheet(0)
 
 value = worksheet.acell('A1').value
-
 print(value)
 
+row_values = worksheet.row_values('1')
+print(row_values)
+
+col_values = worksheet.col_values('2')
+print(col_values)
